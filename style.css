@@ -109,7 +109,8 @@ img {
   gap: 50px;
   padding: 18px 28px;
 }
-#heritage {
+#heritage,
+#forts {
   font-family: var(--font);
   font-size: 35px;
   text-transform: uppercase;
@@ -168,3 +169,24 @@ img {
 }
 
 /* Forts & Monuments */
+.fortContainer {
+  margin-top: 5%;
+  padding: 10px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.fortsCard {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 30%;
+}
+#fortImg {
+  width: 100%;
+  border-radius: 0px;
+}
+.monuments {
+  display: flex;
+  justify-content: space-around;
+}
