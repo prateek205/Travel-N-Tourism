@@ -301,3 +301,19 @@ img {
 #hillId {
   background-image: url("assets/mhaismal.webp");
 }
+
+/* Footer */
+.footerSection {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  background-color: var(--secondary-color);
+}
+#footer {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: var(--primary-font);
+}
