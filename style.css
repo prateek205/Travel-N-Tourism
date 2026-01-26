@@ -53,6 +53,7 @@
   line-height: 60px;
   color: var(--primary-color);
   font-family: var(--font);
+  box-shadow: inset 0px -50px 200px 80px rgba(250, 250, 250);
 }
 .heroSection::before {
   content: "";
