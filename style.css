@@ -9,7 +9,7 @@
   --secondary-color: hsl(100, 20%, 75%);
   --font: prateek;
   --primary-font: primary-prateek;
-  --secondary-font: secondary-prateek
+  --secondary-font: secondary-prateek;
 }
 
 @font-face {
@@ -57,7 +57,7 @@
 .heroSection::before {
   content: "";
   position: absolute;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.65);
   inset: 0;
 }
 .heroSection {
@@ -68,13 +68,13 @@
 #welcome {
   font-size: 25px;
   opacity: 0.95;
-  text-shadow: 0px 0px 8px hsl(0, 0%, 95%);
+  text-shadow: 4px 0px 8px hsl(0, 0%, 100%);
 }
 #chh {
   font-size: 30px;
   opacity: 0.95;
   text-transform: uppercase;
-  text-shadow: 0px 0px 5px hsl(0, 0%, 100%);
+  text-shadow: 3px 0px 3px hsl(0, 0%, 100%);
 }
 #tourism {
   font-family: var(--secondary-prateek);
