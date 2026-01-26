@@ -103,14 +103,14 @@ img {
 }
 
 .heritageContainer {
-  /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   gap: 50px;
   padding: 18px 28px;
 }
 #heritage,
-#forts {
+#forts,
+#devo {
   font-family: var(--font);
   font-size: 35px;
   text-transform: uppercase;
@@ -169,7 +169,8 @@ img {
 }
 
 /* Forts & Monuments */
-.fortContainer {
+.fortContainer,
+.devoContainer {
   margin-top: 5%;
   padding: 10px 25px;
   display: flex;
@@ -180,7 +181,8 @@ img {
   display: flex;
   justify-content: space-around;
 }
-.fortsCard {
+.fortsCard,
+.devoCard {
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -191,23 +193,27 @@ img {
   background-color: var(--primary-color);
   box-shadow: 0px 0px 28px 30px hsl(250, 0%, 90%);
 }
-#fortImg {
+#fortImg,
+#devoImg {
   width: 100%;
   border-radius: 0px;
   padding: 10px;
   background-color: var(--secondary-color);
 }
-.fortsInfo {
+.fortsInfo,
+.divoInfo {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 25px;
 }
-#fortTitle {
+#fortTitle,
+#devoTitle {
   font-family: var(--font);
   font-size: 25px;
   text-transform: uppercase;
 }
-#fortPara {
+#fortPara,
+#devoPara {
   font-family: var(--primary-font);
   font-size: 15px;
   text-align: justify;
@@ -226,4 +232,13 @@ img {
 #open {
   font-family: var(--font);
   font-size: 15px;
+}
+
+/* Devotional */
+.devotionalCont {
+  display: flex;
+  justify-content: space-evenly;
+}
+#devoCd {
+  width: 25%;
 }
