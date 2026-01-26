@@ -176,17 +176,54 @@ img {
   flex-direction: column;
   gap: 50px;
 }
+.monuments {
+  display: flex;
+  justify-content: space-around;
+}
 .fortsCard {
   display: flex;
   flex-direction: column;
   gap: 25px;
   width: 30%;
+  /* border: 2px solid black; */
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  box-shadow: 0px 0px 28px 30px hsl(250, 0%, 90%);
 }
 #fortImg {
   width: 100%;
   border-radius: 0px;
+  padding: 10px;
+  background-color: var(--secondary-color);
 }
-.monuments {
+.fortsInfo {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+}
+#fortTitle {
+  font-family: var(--font);
+  font-size: 25px;
+  text-transform: uppercase;
+}
+#fortPara {
+  font-family: var(--primary-font);
+  font-size: 15px;
+  text-align: justify;
+  line-height: 22px;
+}
+.timing {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#time {
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: bold;
+}
+#open {
+  font-family: var(--font);
+  font-size: 15px;
 }
