@@ -8,17 +8,23 @@
   --primary-color: #000;
   --secondary-color: hsl(100, 20%, 75%);
   --font: prateek;
-  --font-family: prateek-family;
+  --primary-font: primary-prateek;
+  --secondary-font: secondary-prateek
 }
 
 @font-face {
-  font-family: Prateek;
+  font-family: prateek;
   src: url("font/RobotoMono-VariableFont_wght.ttf");
 }
 
 @font-face {
-  font-family: Prateek-family;
+  font-family: primary-prateek;
   src: url("font/Arimo-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: secondary-prateek;
+  src: url("font/ZalandoSansExpanded-VariableFont_wght.ttf");
 }
 
 .mainContainer {
@@ -71,7 +77,7 @@
   text-shadow: 0px 0px 5px hsl(0, 0%, 100%);
 }
 #tourism {
-  font-family: var(--font-family);
+  font-family: var(--secondary-prateek);
   font-size: 20px;
   opacity: 0.95;
   text-shadow: 0px 0px 3px hsl(0, 0%, 100%);
