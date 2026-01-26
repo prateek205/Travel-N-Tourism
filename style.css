@@ -89,15 +89,80 @@
 /* Image Container */
 .imageContainer {
   position: relative;
-  top: -130px;
+  top: -110px;
   z-index: 1;
   display: flex;
   justify-content: space-evenly;
   gap: 0px;
 }
 img {
-  width: 25%;
+  width: 18%;
+  border-radius: 0px 50px;
+  box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
   object-fit: cover;
-  padding: 0px 10px;
-  border-radius: 30px;
+}
+
+.heritageContainer {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 18px 28px;
+}
+#heritage {
+  font-family: var(--font);
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.heritage-cave {
+  display: flex;
+  gap: 5%;
+  /* border: 2px solid black; */
+  padding: 30px 28px;
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  box-shadow: 0px 0px 18px 18px hsl(0, 0%, 95%);
+}
+.heritage-cave img {
+  width: 25%;
+  height: 180px;
+  border-radius: 0px;
+  transform: rotate(-10deg);
+  padding: 8px;
+  background-color: rgb(100, 100, 100);
+}
+
+.heritageContent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#heriCont {
+  font-size: 28px;
+  font-family: var(--secondary-font);
+}
+#heriPara {
+  text-align: justify;
+  line-height: 25px;
+  font-family: var(--font);
+}
+#heriRoute {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(107, 107, 107);
+}
+#heriRoute span {
+  text-transform: capitalize;
+  font-weight: normal;
+}
+#heriRoute #closed {
+  color: rgb(250, 0, 0);
+}
+#heriCave1 {
+  flex-direction: row-reverse;
+}
+#img {
+  transform: rotate(10deg);
+  margin-top: 80px;
 }
