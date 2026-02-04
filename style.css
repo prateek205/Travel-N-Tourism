@@ -7,7 +7,7 @@
 :root {
   --primary-color: hsl(250, 0%, 95%);
   --secondary-color: hsl(100, 20%, 75%);
-  --accent-color:hsl(0,0%,0%);
+  --accent-color: hsl(0, 0%, 0%);
   --font: prateek;
   --primary-font: primary-prateek;
   --secondary-font: secondary-prateek;
@@ -67,8 +67,8 @@
   z-index: 1;
 }
 
-.heroContent{
-    opacity: var(--primary-opacity);
+.heroContent {
+  opacity: var(--primary-opacity);
 }
 
 #welcome {
