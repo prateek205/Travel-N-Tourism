@@ -113,10 +113,12 @@ img {
   flex-direction: column;
   gap: 50px;
   padding: 18px 28px;
+  /* border: 2px solid black; */
 }
 #heritage,
 #forts,
 #devo {
+  /* border: 2px solid black; */
   font-family: var(--font);
   font-size: 35px;
   text-transform: uppercase;
@@ -322,6 +324,85 @@ img {
   font-size: 15px;
   font-weight: bold;
   font-family: var(--primary-font);
+}
+
+/* Animations */
+.slide-left {
+  transform: translateX(-200px);
+  opacity: 0;
+}
+.zoom-in {
+  transform: scale(0.5);
+  opacity: 0;
+}
+.slide-right {
+  transform: translateX(200px);
+  opacity: 0;
+}
+.zoom-out {
+  transform: scale(1.5);
+  opacity: 0;
+}
+.fade-up {
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+/* Active */
+.show.slide-left {
+  animation: slideLeft 1.5s forwards;
+}
+
+.show.zoom-in {
+  animation: zoomIn 1.5s forwards;
+}
+
+.show.slide-right {
+  animation: slideRight 1.2s forwards;
+}
+
+.show.zoom-out {
+  animation: zoomOut 2s forwards;
+}
+
+.show.fade-up {
+  animation: fadeUp 1s forwards;
+}
+
+/* keyFrame */
+@keyframes slideLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomOut {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Media Query */
